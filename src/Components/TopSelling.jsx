@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import { GreenButton } from "../components/BuyNowButton";
+import { GreenButton } from "../Components/BuyNowButton";
 import { plants } from "../Components/products";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
