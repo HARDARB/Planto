@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { BiSearch, BiUser, BiMenu, BiX } from "react-icons/bi";
-import { CartButton } from "../components/BuyNowButton";
+import { CartButton } from "../../src/Components/BuyNowButton";
 import Plant0_Logo from "../assets/img/Planto_logo.svg";
 import gsap from "gsap";
 import { Link } from "react-router-dom";

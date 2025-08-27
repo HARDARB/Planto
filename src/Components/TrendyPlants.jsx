@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useRef } from "react";
 import { FaShoppingBag } from "react-icons/fa";
-import { WhiteButton } from "../components/BuyNowButton";
+import { WhiteButton } from "../Components/BuyNowButton";
 import { goods } from "../Components/products";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

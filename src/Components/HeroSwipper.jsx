@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { IoChevronForward } from "react-icons/io5";
 import Bg_Image from "../assets/img/Rectangle_Background.png"; // Adjust path as needed
-import { WhiteButton } from "../components/BuyNowButton"; 
+import { WhiteButton } from "../Components/BuyNowButton"; 
 import { items } from "../Components/products";
 
 const AutoSwipers = () => {
