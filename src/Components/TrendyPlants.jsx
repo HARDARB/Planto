@@ -51,7 +51,7 @@ const TrendyPlants = () => {
               <img
                 src={good.background}
                 alt="background"
-                className="absolute inset-0 w-full hidden md:block h-[300] md:object-cover opacity-50 z-0"
+                className="absolute inset-0 w-full hidden md:block h-[17.6rem] md:object-cover opacity-50 z-0"
               />
 
               {/* Plant Image */}
