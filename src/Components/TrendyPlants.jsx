@@ -37,7 +37,7 @@ const TrendyPlants = () => {
   return (
     <section ref={sectionRef} className="relative text-white pt-[4rem] md:pt-16">
       <div className="relative z-10 max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center md:pb-10 pb-2">Our Trendy Plants</h2>
+        <h2 className="text-3xl font-bold text-center md:pb-30 pb-2">Our Trendy Plants</h2>
 
         <div className="md:space-y-10">
           {goods.map((good, index) => (
@@ -51,7 +51,7 @@ const TrendyPlants = () => {
               <img
                 src={good.background}
                 alt="background"
-                className="absolute inset-0 w-full hidden md:block h-[200] md:object-cover opacity-50 z-0"
+                className="absolute inset-0 w-full hidden md:block h-[280] md:object-cover opacity-50 z-0"
               />
 
               {/* Plant Image */}
